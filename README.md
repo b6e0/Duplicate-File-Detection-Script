@@ -1,0 +1,1 @@
+Copy `check.bat` and `process.exe` into the folder and run `check.bat`, and it will show the information about duplication in this folder.

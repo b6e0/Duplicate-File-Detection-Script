@@ -10,7 +10,6 @@ void stringtoarray(string s)
 int main()
 {
 	freopen("size.txt","r",stdin);
-	freopen("nul.txt","w",stdout);
 	map<long long,vector<string> >mp;
 	vector<vector<string> >ans;
 	string s,t;
@@ -57,10 +56,10 @@ int main()
 		}
 	freopen("result.txt","w",stdout);
 	if(ans.empty())
-		puts("没有重复");
+		puts("No duplication.");
 	else
 	{
-		puts("有重复：");
+		puts("Duplicate files:");
 		for(int i=0;i<ans.size();i++)
 		{
 			for(int j=0;j<ans[i].size();j++)
